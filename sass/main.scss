@@ -1,0 +1,17 @@
+@use "./utils/variables";
+@use "./utils/visually-hidden";
+
+@use "./base/base";
+@use "./base/container";
+
+@use "./components/logo";
+@use "./components/buttons";
+@use "./components/modal";
+
+@use "./layout/header";
+@use "./layout/hero";
+@use "./layout/features";
+@use "./layout/work";
+@use "./layout/team";
+@use "./layout/clients";
+@use "./layout/footer";
