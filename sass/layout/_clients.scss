@@ -1,0 +1,28 @@
+@use "../utils/variables" as *;
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+
+  > li {
+    width: calc((100% - 150px) / 6);
+  }
+}
+
+.client-link {
+  width: 100%;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #AFB1B8;
+  transition: border-color $tr $tf, fill $tr $tf;
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
+  }
+}
